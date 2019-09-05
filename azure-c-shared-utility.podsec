@@ -1,2 +1,15 @@
 Pod::Spec.new do |s|
- end
+  s.name           = 'azure-c-shared-utility'
+  s.version        = '2.0'
+  s.summary        = 'Azure C Shared Utility library'
+  s.description    = 'Azure C Shared Utility library'
+  s.license        = 'MIT'
+  s.author         = 'Venkat'
+  s.homepage       = 'https://github.com/venkatsan/azure-c-shared-utility'
+  s.source         = { :git => 'https://github.com/venkatsan/azure-c-shared-utility.git', :tag => s.version }
+  s.requires_arc   = true
+  s.platform       = :ios, '9.0'
+  s.source_files   = "inc/**/*.h","src/*.c","pal/tlsio_options.c","pal/agenttime.c","pal/ios-osx/*.c","adapters/lock_pthreads.c","adapters/threadapi_pthreads.c","adapters/linux_time.c","adapters/tickcounter_linux.c","adapters/uniqueid_linux.c","adapters/httpapi_compact.c","adapters/threadapi_pthreads.c"
+  s.public_header_files = 'inc/azure_c_shared_utility/*.h'
+  s.header_mappings_dir = 'inc/'
+end
