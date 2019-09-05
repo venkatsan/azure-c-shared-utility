@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name           = 'azure-c-shared-utility'
-  s.version        = '0.0.1'
+  s.version        = 0.0.1
   s.summary        = 'Azure C Shared Utility library'
   s.description    = 'Azure C Shared Utility library'
   s.license        = 'MIT'
