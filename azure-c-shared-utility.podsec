@@ -1,15 +1,2 @@
 Pod::Spec.new do |s|
-  s.name           = 'azure-c-shared-utility'
-  s.version        = 0.0.1
-  s.summary        = 'Azure C Shared Utility library'
-  s.description    = 'Azure C Shared Utility library'
-  s.license        = 'MIT'
-  s.author         = 'Venkat'
-  s.homepage       = 'https://github.com/venkatsan/azure-c-shared-utility''
-  s.source         = { :git => 'hhttps://github.com/venkatsan/azure-c-shared-utility'', :tag => s.version }
-
-  s.requires_arc   = true
-  s.platform       = :ios, '8.0'
-
-  s.source_files   = 'src/*.{c}'
-end
+ end
